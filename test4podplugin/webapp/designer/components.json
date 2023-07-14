@@ -1,0 +1,15 @@
+{
+	"components": [
+		{
+			"id": "test4podplugin",
+			"type": "VIEW_PLUGIN",
+			"allowMultipleInstances": true,
+			"name": "sap.custom.plugin.testplugins.test4podplugin.test4podplugin",
+			"propertyEditor": "sap.custom.plugin.testplugins.test4podplugin.test4podplugin.builder.PropertyEditor",
+			"i18n": "sap.custom.plugin.testplugins.test4podplugin.test4podplugin.i18n.i18n",
+            "productionProcessEnabled": false,
+           "productionProcessTitle": "test4podplugin",
+			"supportedPodTypes": ["WORK_CENTER","OPERATION","ORDER","OTHER","MONITOR"]
+		}   
+	]
+}
